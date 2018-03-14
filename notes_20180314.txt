@@ -4,7 +4,7 @@ git does not track folder/directory, only files
 add file to update what will be committed
 	git add file.txt
 commit changes
-	git commit
+	git commit -m "message"
 to unstage
 	git reset HEAD file.txt
 display status of files
