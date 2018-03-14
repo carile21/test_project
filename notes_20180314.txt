@@ -1,0 +1,24 @@
+
+git does not track folder/directory, only files
+
+add file to update what will be committed
+	git add file.txt
+commit changes
+	git commit
+to unstage
+	git reset HEAD file.txt
+display status of files
+	git status
+delete file
+	git rm file2.txt
+	git commit -am "Deletes file1.text"
+restore file
+	git checkout -- file2.text
+display simplified logs
+	git log --oneline
+view changes in the file
+	git diff 20180313.txt
+create new branch
+	git branch new_feature
+switch between master > branch
+	git checkout new_feature
